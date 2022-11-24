@@ -1,5 +1,5 @@
 # Assembly
-some assembly projects (nasm)
+some assembly projects (NASM 64-bit)
 
 
 # What is assebnly language?
