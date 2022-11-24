@@ -1,13 +1,30 @@
 # Some basic practical homework
 
-## least common factor:
-Finding least common factor of two given numbers. 
+## BCD-to-binary:
+Convert the given 3 digit BDC(Binary-coded decimal) to binary.
 #### test case:
 input: \
- 16 \
- 14 \
+010000011000 \
 output: \
-112
+110100010 
+
+
+## digitAdd-E-O:
+Calculate the summation of the odd and even digits of the given number separately.
+#### test case:
+input: \
+138 \
+output: \
+4 8 
+
+
+## digitAdd:
+Calculate the summation of the digits of the given number.
+#### test case:
+input:
+99 \
+output:
+18 
 
 
 ## greatest common divisor:
@@ -18,6 +35,16 @@ input: \
 96 \
 output: \
 8 
+
+
+## least common factor:
+Finding least common factor of two given numbers. 
+#### test case:
+input: \
+ 16 \
+ 14 \
+output: \
+112
 
 
 ## perfect:
@@ -43,30 +70,5 @@ input: \
 13 \
 output: \
 Yes
-
-## digitAdd:
-Calculate the summation of the digits of the given number.
-#### test case:
-input:
-99 \
-output:
-18 
-
-## digitAdd-E-O:
-Calculate the summation of the odd and even digits of the given number separately.
-#### test case:
-input: \
-138 \
-output: \
-4 8 
-
-## BCD-to-binary:
-Convert the given 3 digit BDC(Binary-coded decimal) to binary.
-#### test case:
-input: \
-010000011000 \
-output: \
-110100010 
-
 
 # Every numbers in this series is greater than 1 and less than $3\times 10 ^{7}$ 
