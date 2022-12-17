@@ -15,7 +15,7 @@ _start:
     mov r12, 2
 digitAdd:
     xor rdx, rdx
-    div r10           ;cal remaining, rdx:remaining, rax:quotient, r10 Divisor
+    div r10           ;calculate remaining, rdx:remaining, rax:quotient, r10 Divisor
     call calSum
     cmp rax, 0
     je end
