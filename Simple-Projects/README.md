@@ -1,4 +1,5 @@
-# Some basic practical homework
+# Some basic practical homework (in order of difficulty)
+
 
 ## BCD-to-binary:
 Convert the given 3 digit BDC(Binary-coded decimal) to binary.
@@ -9,15 +10,6 @@ output: \
 110100010 
 
 
-## digitAdd-E-O:
-Calculate the summation of the odd and even digits of the given number separately.
-#### test case:
-input: \
-138 \
-output: \
-4 8 
-
-
 ## digitAdd:
 Calculate the summation of the digits of the given number.
 #### test case:
@@ -25,6 +17,14 @@ input:
 99 \
 output:
 18 
+
+## digitAdd-E-O:
+Calculate the summation of the odd and even digits of the given number separately.
+#### test case:
+input: \
+138 \
+output: \
+4 8 
 
 
 ## greatest common divisor:
@@ -73,6 +73,8 @@ Yes
 
 # Every number is greater than 1 and less than $3\times 10 ^{7}$  in the projects above.
 
+--------------------------------------------------------------------------------------------------------
+
 ## count-one:
 Calculate the summation of ones in binary form of the given decimal number.
 #### test case:
@@ -100,3 +102,5 @@ input: \
 5 \
 output: \
 1010000000000000000000000000000000000000000000000000000000000000
+
+--------------------------------------------------------------------------------------------------------
