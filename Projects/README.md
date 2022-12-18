@@ -1,5 +1,5 @@
 ## assembler and disassembler 
-assembler and disassembler are written in python and assembly language (4 projects)
+assembler and disassembler are implemented in python and assembly language (4 projects)
 
 instructions:
 
