@@ -1,25 +1,28 @@
 %include "../general/sys-equal.asm"
 ;----------------------------------------------------
 section     .data1
+    error_open_dir   db     "error in opening dir         ", NL, 0
+    error_create     db     "error in creating file       ", NewLine, 0
+    error_close      db     "error in closing file        ", NewLine, 0
+    error_write      db     "error in writing file        ", NewLine, 0
+    error_open       db     "error in opening file        ", NewLine, 0
+    error_append     db     "error in appending file      ", NewLine, 0
+    error_delete     db     "error in deleting file       ", NewLine, 0
+    error_read       db     "error in reading file        ", NewLine, 0
+    error_print      db     "error in printing file       ", NewLine, 0
+    error_seek       db     "error in seeking file        ", NewLine, 0
+    error_create_dir db    "error in creating directory  ", NL, 0
 
-    error_create    db     "error in creating file       ", NewLine, 0
-    error_close     db     "error in closing file        ", NewLine, 0
-    error_write     db     "error in writing file        ", NewLine, 0
-    error_open      db     "error in opening file        ", NewLine, 0
-    error_append    db     "error in appending file      ", NewLine, 0
-    error_delete    db     "error in deleting file       ", NewLine, 0
-    error_read      db     "error in reading file        ", NewLine, 0
-    error_print     db     "error in printing file       ", NewLine, 0
-    error_seek      db     "error in seeking file        ", NewLine, 0
-
-    suces_create   db      "file created and opened for R/W ", NewLine, 0
-    suces_close    db      "file closed                     ", NewLine, 0
-    suces_write    db      "written to file                 ", NewLine, 0
-    suces_open     db      "file opend for R/W              ", NewLine, 0
-    suces_append   db      "file opened for appending       ", NewLine, 0
-    suces_delete   db      "file deleted                    ", NewLine, 0
-    suces_read     db      "reading file                    ", NewLine, 0
-    suces_seek     db      "seeking file                    ", NewLine, 0
+    suces_open_dir   db      "dir opened for R/W                 ", NL, 0    
+    suces_create_dir db      "dir created and opened for R/W     ", NL, 0
+    suces_create     db      "file created and opened for R/W ", NewLine, 0
+    suces_close      db      "file closed                     ", NewLine, 0
+    suces_write      db      "written to file                 ", NewLine, 0
+    suces_open       db      "file opend for R/W              ", NewLine, 0
+    suces_append     db      "file opened for appending       ", NewLine, 0
+    suces_delete     db      "file deleted                    ", NewLine, 0
+    suces_read       db      "reading file                    ", NewLine, 0
+    suces_seek       db      "seeking file                    ", NewLine, 0
 
 ;----------------------------------------------------
 ; rdi : file name; rsi : file permission
