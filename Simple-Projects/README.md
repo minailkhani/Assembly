@@ -145,3 +145,5 @@ Path to a folder and number n is given. make the images in the path n degrees br
 #### examlpe:
 n = 200
 ![image](https://user-images.githubusercontent.com/83788223/208288056-8ee3e833-dd2c-4bdb-a082-8d8363102228.png)
+
+The test case is in light_image folder. path is path_to_dir and n is equal to 200.
