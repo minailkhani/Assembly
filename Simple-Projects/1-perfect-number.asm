@@ -28,7 +28,7 @@ complete:
     je end    ;finished
     xor rdx, rdx
     push rax
-    div rcx     ;cal remaining, rdx:remaining, rax:quotient
+    div rcx     ;calculate remaining, rdx:remaining, rax:quotient
     cmp rdx,0   ;check divisibility
     pop rax
     je check 
